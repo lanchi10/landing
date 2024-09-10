@@ -128,11 +128,29 @@
             --text-color: #ecf0f1;
             --card-background: #34495e;
         }
+        .back-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: var(--secondary-color);
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #c0392b;
+            color: white;
+        }
     </style>
 </head>
 <body>
     <button class="color-mode-toggle" onclick="toggleColorMode()">שנה מצב צבע</button>
     <h1>כלי AI מובילים - עולם של אפשרויות</h1>
+    
+    <a href="https://lanchi10.github.io/landing/" class="back-button">חזרה לאתר הראשי</a>
 
     <div class="category">
         <h2>צ'אטבוטים AI כלליים</h2>
